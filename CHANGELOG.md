@@ -3,6 +3,9 @@
 # IntelliJ Platform Plugin Template Changelog
 
 ## [Unreleased]
+## [0.8.3]
+## [0.8.3]
+## [0.8.3]
 ### Added
 - `properties` shorthand function for accessing `gradle.properties` in a cleaner way
 

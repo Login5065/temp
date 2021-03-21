@@ -1,11 +1,18 @@
 <idea-plugin>
-    <id>org.jetbrains.plugins.template</id>
-    <name>Template</name>
-    <vendor>JetBrains</vendor>
+    <id>org.jetbrains.plugins.AraAra</id>
+    <name>AraAra-Ide</name>
+    <vendor>AraAra</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action id="Music" class="Music" text="Music" description="Music for coding">
+            <add-to-group group-id="HelpMenu" anchor="first"/>
+            <keyboard-shortcut first-keystroke="control shift J" keymap="$default"/>
+        </action>
+    </actions>
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="org.jetbrains.plugins.template.services.MyApplicationService"/>
@@ -16,4 +23,8 @@
         <listener class="org.jetbrains.plugins.template.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+
+
+
+
 </idea-plugin>
