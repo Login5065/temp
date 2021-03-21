@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>org.jetbrains.plugins.AraAra</id>
+    <id>AraAra</id>
     <name>AraAra-Ide</name>
     <vendor>AraAra</vendor>
 
